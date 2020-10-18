@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+
+    <EditText
+        android:id="@+id/studentNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Student Name"
+        android:padding="16dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/teacherNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        android:hint="Enter Student Name"
+        android:padding="16dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/showDataBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="64dp"
+        android:text="Show Data" />
+
+
+    <TextView
+        android:id="@+id/showDataTvId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="32dp"
+        android:text="Hello .. " />
+
+</LinearLayout>
